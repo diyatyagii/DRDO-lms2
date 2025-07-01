@@ -1,0 +1,131 @@
+.books-page {
+  min-height: 100vh;
+  padding: 200px 20px 40px; /* was 80px */
+  background: linear-gradient(to right, #e0f2ff, #d6e5fb);
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+
+.books-heading {
+  text-align: center;
+  font-size: 28px;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search-input-books {
+  padding: 12px 20px;
+  font-size: 16px;
+  width: 60%;
+  max-width: 600px;
+  border: 2px solid #1e3a8a;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.books-table-container {
+  overflow-x: auto;
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.books-table th,
+.books-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.books-table th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.books-table tr:nth-child(even) {
+  background-color: #f3f8ff;
+}.pagination-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.pagination-buttons button {
+  padding: 8px 16px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.books-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.load-more-container {
+  margin-top: 20px;
+}
+
+.load-more-btn {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.load-more-btn:hover {
+  background-color: #3b82f6;
+}
+
+.info-bar {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px; /* gap below search box */
+}
+
+.book-search-input {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #1e3a8a;
+  border-radius: 8px;
+  margin-top: 20px; /* gap above search box */
+}
+
